@@ -2,12 +2,30 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
         <link rel="stylesheet" type="text/css" href="main.css"/>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="/js/smooth-scrolling.js"></script>
     </head>
     <body>
-        <div>
-            <img src="logo.png"/>
-            <h1>Coming Soon!</h1>
+        <nav>
+            <ul class="right">
+                <li><a href="#store">Store</a></li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <div id="hero-overlay">
+                <div class="img-div">
+                    <img src="/images/logo.svg"/>
+                </div>
+            </div>
+        </div>
+        <div id="store" class="row">
+            <a href="https://mkt.com/bonnie-jos" class="sq-embed-menu" data-menu-item-images="large" data-menu-accent-color="64dd17" data-menu-template="column" data-menu-border="hide" data-menu-item-descriptions="show" >Order Online</a>
+            <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
         </div>
     </body>
 </html>
