@@ -18,7 +18,13 @@ body {
 * Text Styles *
 **************/
 
-a {
+@font-face { 
+    font-family: Jenna Sue; 
+    src: local("Jenna Sue"), url('/fonts/JennaSue.ttf'); 
+} 
+
+a,
+p i {
     color: #64dd17;
     text-decoration: none;
 }
@@ -26,6 +32,23 @@ a {
 a:focus {
     outline: none;
     text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Jenna Sue';
+    font-size: 64px;
+    font-weight: 400;
+    color: #3E2723;
+    margin-bottom: 12px;
+}
+
+h1,
+p.subtitle {
+    text-align: center;
+}
+
+p.subtitle {
+    margin-top: 0;
 }
 
 /*********
@@ -49,6 +72,7 @@ nav > ul > li > a:visited {
     text-shadow: 0 1px 2px rgba(0,0,0,0.24);
     opacity: 0.8;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 nav > ul > li > a:focus {
