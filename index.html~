@@ -5,12 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-        <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="/js/main.js"></script>
-        <script type="text/javascript" src="/js/external-links.js"></script>
         <script type="text/javascript" src="/js/smooth-scrolling.js"></script>
     </head>
     <body>
@@ -30,12 +27,5 @@
             <a href="https://mkt.com/bonnie-jos" class="sq-embed-menu" data-menu-item-images="large" data-menu-accent-color="64dd17" data-menu-template="column" data-menu-border="hide" data-menu-item-descriptions="show" >Order Online</a>
             <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
         </div>
-        <footer>
-            <p>Copyright &copy; <span id="year">2015</span> Bonnie Jo's</p>
-            <ul class="right">
-                <li><a href="https://www.facebook.com/bonniejos" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="mailto:bonniejos33@gmail.com" title="Email"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-        </footer>
     </body>
 </html>

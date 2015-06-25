@@ -115,6 +115,7 @@ nav > .right {
 #hero img {
     width: 400px;
     height: 400px;
+    max-width: 75%;
     vertical-align: middle;
     display: inline-block;
 }
