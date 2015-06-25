@@ -11,7 +11,9 @@ body {
 }
 
 .row {
-    margin: 16px;
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /**************
@@ -36,7 +38,7 @@ a:focus {
 
 h1 {
     font-family: 'Jenna Sue';
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 400;
     color: #3E2723;
     margin-bottom: 12px;
@@ -62,6 +64,8 @@ nav {
     position: absolute;
     top: 0;
     z-index: 900;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
 }
 
 nav > ul > li > a,
@@ -144,6 +148,8 @@ nav > .right {
     background-image: url('/images/net.png');
     width: 100%;
     height: 100%;
+    animation-delay: 500ms;
+    -webkit-animation-delay: 500ms;
 }
 
 #hero .img-div {
@@ -168,4 +174,6 @@ nav > .right {
     max-width: 75%;
     vertical-align: middle;
     display: inline-block;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
 }
