@@ -1,6 +1,12 @@
+@font-face { 
+    font-family: 'Montserrat'; 
+    src: local('Montserrat'),
+         url('/fonts/montserrat-light-webfont.ttf') format('truetype');
+}
+
 html,
 body {
-    font-family: 'Open Sans', 'Droid Sans', Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     background-color: #fff;
     color: #333;
     margin: 0;
