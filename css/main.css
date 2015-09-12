@@ -107,9 +107,34 @@ a.button:hover {
                 0 3px 6px rgba(0,0,0,0.23);
     margin: 14px;
     padding: 17px 65px;
-    border-radius: 3px;
     font-size: 17px;
 }
+
+a.button.fab {
+    padding: 0;
+    display: block;
+    height: 56px;
+    width: 56px;
+    margin: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+                0 3px 6px rgba(0,0,0,0.23),
+                0 0 3px rgba(0,0,0,0.20);
+}
+
+a.button.fab.secondary {
+    background-color: #fafafa;
+    color: #666;
+}
+
+a.button.fab:focus,
+a.button.fab:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),
+                0 6px 6px rgba(0,0,0,0.23);
+}
+
 
 h1 {
     font-family: 'Jenna Sue';
@@ -186,8 +211,6 @@ nav > ul > li {
     float: left;
 }
 
-footer > ul > li > a,
-footer > ul > li > a:visited,
 nav > ul > li > a,
 nav > ul > li > a:visited {
     margin: 0;
@@ -200,7 +223,7 @@ nav > ul > li > a:visited {
     text-transform: uppercase;
 }
 
-footer > ul > li > a:focus
+
 nav > ul > li > a:focus {
     text-decoration: none;
     color: #49BD00;
@@ -210,6 +233,16 @@ footer > .right,
 nav > .right {
     float: right;
     margin-right: 3px;
+}
+
+footer > .right {
+    margin-top: -28px;
+}
+
+@media only screen and (max-width: 348px) {
+    footer > .right {
+        margin-top: -84px;
+    }
 }
 
 /**********
