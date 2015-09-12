@@ -6,6 +6,7 @@ function initMap() {
     var bounds = new google.maps.LatLngBounds ();
 
     var map = new google.maps.Map(document.getElementById('map'), {
+        scrollwheel: false,
         zoom: 12,
         panControl: false,
         mapTypeControl: false,
