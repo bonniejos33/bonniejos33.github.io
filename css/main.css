@@ -34,7 +34,10 @@ section.grid > * {
     }
 
     .grid .two-thirds {
-        width: 66.66%;
+        width: calc(66.66% - 32px);
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 16px;
     }
 
     .grid .half {
@@ -44,23 +47,26 @@ section.grid > * {
         margin-right: 16px;
     }
 
-    .grid .half:nth-child(2) {
+    .grid .third {
+        width: calc(33.33% - 32px);
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 16px;
+    }
+
+    .grid .third:last-child {
         margin-left: 16px;
         margin-right: 0px;
     }
 
-    .grid .half:nth-child(2) h1 {
+    .grid .third:last-child h1 {
         width: 75%;
         text-align: left;
         margin-top: 0;
     }
 
-    .grid .half:nth-child(2) p {
+    .grid .third:last-child p {
         text-align: left;
-    }
-
-    .grid .third {
-        width: 33.33%;
     }
 
     .grid .quarter {
@@ -329,7 +335,7 @@ footer > .right {
 @media only screen and (min-width: 640px) {
     #map {
         width: auto;
-        height: 500px
+        height: 450px
     }
 }
 
