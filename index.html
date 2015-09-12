@@ -12,30 +12,44 @@
         <script type="text/javascript" src="/js/main.js"></script>
         <script type="text/javascript" src="/js/external-links.js"></script>
         <script type="text/javascript" src="/js/smooth-scrolling.js"></script>
+        <script type="text/javascript" src="/js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm73nPadQQpvHmk9Tx3e-kAGnNyFBlfG4&callback=initMap"
+            async defer></script>
+      </body>
     </head>
     <body>
         <nav class="animated fadeInDown">
             <ul class="right">
                 <li><a href="#locations">Locations</a></li>
                 <li><a href="#store">Store</a></li>
+                <li><a href="mailto:bonniejos33@gmail.com">Contact</a></li>
             </ul>
         </nav>
         <div id="hero">
             <div id="hero-overlay" class="animated fadeIn">
                 <div class="img-div">
-                    <img class="animated fadeIn" src="/images/logo.svg"/>
+                    <img class="animated fadeIn" src="/images/logo.svg"/><br>
+                    <a class="button" href="#store">Buy Online</a>
                 </div>
             </div>
         </div>
         <section class="grid">
-            <div id="locations" class="whole">
-                <h1>Where to Get Them</h1>
-                <p class="subtitle">My delicious, homemade macaroons are available at several local spots <i class="fa fa-star-o"></i></p>
-                <a href="http://www.eldoradofarmersmarket.com/Markets/ElDoradoHillsTownCenter.aspx"><img src="/images/market.png"/></a>
+            <div id="locations">
+                <div class="half">
+                    <div id="map-div">
+                        <div id="map"></div>
+                    </div>
+                </div>
+                <div class="half">
+                    <h1>I'm at the Farmer's Market!</h1>
+                    <p class="subtitle">My delicious, homemade macaroons are available at local Farmer's Markets on the following days and times:</p>
+                    <p class="text-center">Saturday in Placerville.................8am - Noon</p>
+                    <p class="text-center">Sunday in El Dorado Hills..........8am - 1pm</p>
+                </div>
             </div>
             <div id="store" class="whole">
                 <h1>Online Store</h1>
-                <p class="subtitle">If you live in Folsom, Granite Bay, or El Dorado Hills, you an also buy online! My macaroons are always made fresh to order and we hand deliver them directly to your doorstep <i class="fa fa-heart-o"></i></p> 
+                <p class="subtitle">If you live in Folsom, Granite Bay, or El Dorado Hills, you an also buy online! My macaroons are always made fresh to order and we hand deliver them directly to your doorstep</p> 
                     <div class="half">                
                         <a href="https://squareup.com/market/bonnie-jos/box-of" class="sq-embed-item"> online</a>
                         <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
