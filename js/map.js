@@ -1,7 +1,8 @@
 function initMap() {
 
-    var LatLngList = new Array (new google.maps.LatLng (38.6502574,-121.0627888),
-                                new google.maps.LatLng (38.729082,-120.796454));
+    var LatLngList = new Array (new google.maps.LatLng (38.6502574,-121.0627888), // Town Center
+                                new google.maps.LatLng (38.6758263,-121.1792867), // Sutter St.
+                                new google.maps.LatLng (38.5762059,-121.4825094)); // Midtown
 
     var bounds = new google.maps.LatLngBounds ();
 
