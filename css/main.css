@@ -42,11 +42,17 @@ section.grid > * {
         margin-right: 16px;
     }
 
-    .grid .half {
-        width: calc(50% - 32px);
+    .grid .half,
+    .grid .quarter {
+        width: calc(50% - 16px);
         display: inline-block;
         vertical-align: top;
         margin-right: 16px;
+    }
+
+    .grid .half:last-child,
+    .grid .quarter:nth-child(even) {
+        margin-right: 0;
     }
 
     .grid .third {
@@ -69,11 +75,19 @@ section.grid > * {
     .grid .third:last-child p {
         text-align: left;
     }
+}
 
-    .grid .quarter {
-        width: calc(25% - 32px);
+@media only screen and (min-width: 960px) {
+    .grid .quarter,
+    .grid .quarter:nth-child(even) {
+        width: calc(25% - 16px);
         display: inline-block;
         vertical-align: top;
+        margin-right: 16px;
+    }
+
+    .grid .quarter:last-child {
+        margin-right: 0;
     }
 }
 
